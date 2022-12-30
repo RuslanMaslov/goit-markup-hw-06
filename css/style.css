@@ -783,7 +783,7 @@ section {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: var(--subtle-color);
+    color: var(--sub-color);
 }
 
 .modal-form-input-textarea {
@@ -825,7 +825,7 @@ section {
 .modal-form-input-checkbox:checked+.modal-form-label-checkbox::before {
     background-color: var(--active-color);
     border-color: var(--active-color);
-    ;
+
     background-image: url('/images/arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
