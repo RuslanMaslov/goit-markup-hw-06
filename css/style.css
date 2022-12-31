@@ -675,11 +675,6 @@ section {
     height: 8px;
 }
 
-.modal-button:active {
-    background-color: var(--button-hover-color);
-    fill: var(--main-color);
-}
-
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
@@ -706,6 +701,15 @@ section {
     justify-content: center;
     
     cursor: pointer;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 50%;
+    border: none;
+    background-color: var(--active-color);
+    fill: var(--main-color);
 }
 
 /*==================MODAL FORM=================*/
@@ -826,7 +830,7 @@ section {
     background-color: var(--active-color);
     border-color: var(--active-color);
 
-    background-image: url('/images/arrow.svg');
+    background-image: url('../images/arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
